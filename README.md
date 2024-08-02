@@ -27,8 +27,7 @@ This is my personal web page where you can learn more about me, my background, s
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- **Python**
-- **Django**
+
 
 ## Installation
 
