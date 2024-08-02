@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="root" class="bgwhite dark">
+            <div>
+                <nav>
+                    <header>
+                        <div class="hamburger">
+                            <img class="navbarclosed" src="../images/ham.jpeg" alt="" width="30px">
+                            <img class="navbaropened" src="../images/cross.jpeg" alt="" width="30px">
+                        </div>
+                        <div class="sidebar sidebargo">
+                            <nav>
+                                <div class="fixed-navbar">
+                                    <ul class="fixed-nav-ul">
+                                        <li><a class="nav-li-fixed" href="../index.html">Home</a></li>
+                                        <li><a class="nav-li-fixed" href="../about/about.html">About</a></li>
+                                        <li><a class="nav-li-fixed" href="../projects/projects.html">Projects</a></li>
+                                        <li><a class="nav-li-fixed" href="../contactme/form.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="navbar">
+                            <div class="navlogo"><span class="logostart">&lt;</span><a id="logotext" href="../index.html">Farhan</a>
+                                <span class="logoend">/&gt;</span>
+                            </div>
+                            <ul class="nav-ul">
+                                <li><a class="nav-li-a" href="../index.html">Home</a></li>
+                                <li><a class="nav-li-a" href="../about/about.html">About</a></li>
+                                <li><a class="nav-li-a" href="../projects/projects.html">Projects</a></li>
+                                <li><a class="nav-li-a" href="../contactme/form.html">Contact</a></li>
+                            </ul>
+                            <div class="navbtn">
+                                <button class="modebtn"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                        viewBox="0 0 32 32" class="modebuttonicon" height="1em" width="1em"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M 9 7 C 4.039063 7 0 11.035156 0 16 C 0 20.964844 4.039063 25 9 25 L 23 25 C 27.957031 25 32 20.957031 32 16 C 32 11.042969 27.957031 7 23 7 Z M 23 9 C 26.878906 9 30 12.121094 30 16 C 30 19.878906 26.878906 23 23 23 C 19.121094 23 16 19.878906 16 16 C 16 12.121094 19.121094 9 23 9 Z">
+                                        </path>
+                                    </svg>Dark Mode</button>
+                            </div>
+                        </div>
+                    </header>
+                </nav>
+                <section class="form-flex">
+                    <div class="form-page">
+                        <h2 class="form-heading">Contact Me</h2>
+                        <p class="form-para-heading">Don't Be Shy! Hit Me Up.</p>
+                        <form class="contact-form">
+                            <div class="form-item">
+                                <label class="form-label" for="email">Your Email</label>
+                                <input class="form-input form-email" type="email" name="email" id="email"
+                                    placeholder="farhanrasoolxx@gmail.com" required>
+                            </div>
+                            <div class="form-item">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input class="form-input form-subject" type="text" name="subject" id="subject"
+                                    placeholder="Let me know how can I help you" required>
+                            </div>
+                            <div class="form-item user-msg">
+                                <label for="msg" class="form-label">Your Message</label>
+                                <textarea class="form-input form-msg" name="message" id="msg" rows="6"
+                                    placeholder="Please Leave Your Message Here..."></textarea>
+                            </div>
+                            <div class="form-item submit-btn">
+                                <button class="form-btn" type="submit">Send message</button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+                <footer class="footer">
+                    <div class="footer-main-data">
+                        <div class="footer-data-content">
+                            <div class="footer-nav-items">
+                                <a href="../index.html">
+                                    <div class="footer-logo-icon"><span class="logo-icon">&lt;</span>Furhan<span
+                                            class="logo-icon">/&gt;</span></div>
+                                </a>
+                            </div>
+                            <div class="footer-headings">
+                                <div>
+                                    <h2 class="footer--heading">Resources</h2>
+                                    <ul class="footer-nav-links">
+                                        <li class="nav-links-item"><a href="../projects/projects.html" class="chng-style">Projects</a></li>
+                                        <li class="nav-links-item"><a href="" class="chng-style">CV</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h2 class="footer--heading">Follow Me</h2>
+                                    <ul class="footer-nav-links">
+                                        <li class="nav-links-item"><a
+                                                href="https://www.linkedin.com/in/m-farhan-ur-rasool-%F0%9F%8E%97%EF%B8%8F-527bb4263/"
+                                                class="chng-style">Linkdin</a></li>
+                                        <li class="nav-links-item"><a href="GitHub 
+                                        https://github.com/farhanjutt23" class="chng-style">Github</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="footer-hr">
+                        <div class="footer-data-rights">
+                            <span class="rights">
+                                © 2024
+                                <a class="styl-chng">TalhaDevelops</a>
+                                . All Rights Reserved.
+                            </span>
+                            <div class="links-developer">
+                                <a href="https://www.linkedin.com/in/talha-khalid-81ba97266" class="dev-links"
+                                    target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://www.instagram.com/talha_._khalid?igsh=MXczdmh0M3Iwb2U5Ng=="
+                                    class="dev-links" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://github.com/Talha-Khalid-D" class="dev-links" target="_blank"><i
+                                        class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="../sidenavbar.js"></script>
+</body>
+
+</html>
